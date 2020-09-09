@@ -36,7 +36,7 @@ const GithubState = props => {
     setLoading();
 
     const res = await axios.get(
-      `https://api.github.com/search/users?q=${text}&per_page=100&client_id=${githubClientId}&client_secret=${githubClientSecret}`
+      `https://api.github.com/search/users?q=${text}+repos:%3E5&per_page=100&client_id=${githubClientId}&client_secret=${githubClientSecret}`
     );
 
     dispatch({
