@@ -14,7 +14,7 @@ Open [http://localhost:3000](http://localhost:3000)
 
 Or go to the site directly
 
-### [Live Site](https://voice-ai-news-reader.netlify.app/)
+### [Live Site](https://agile-depths-82489.herokuapp.com/)
 
 ### `npm run build`
 
